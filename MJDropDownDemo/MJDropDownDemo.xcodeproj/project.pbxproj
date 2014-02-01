@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7E29264189D231A0061AB52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E29263189D231A0061AB52 /* Foundation.framework */; };
+		E7E29266189D231A0061AB52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E29265189D231A0061AB52 /* CoreGraphics.framework */; };
+		E7E29268189D231A0061AB52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E29267189D231A0061AB52 /* UIKit.framework */; };
+		E7E2926E189D231A0061AB52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7E2926C189D231A0061AB52 /* InfoPlist.strings */; };
+		E7E29270189D231A0061AB52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E2926F189D231A0061AB52 /* main.m */; };
+		E7E29274189D231A0061AB52 /* MJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E29273189D231A0061AB52 /* MJAppDelegate.m */; };
+		E7E29276189D231A0061AB52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E29275189D231A0061AB52 /* Images.xcassets */; };
+		E7E2927D189D231A0061AB52 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E2927C189D231A0061AB52 /* XCTest.framework */; };
+		E7E2927E189D231A0061AB52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E29263189D231A0061AB52 /* Foundation.framework */; };
+		E7E2927F189D231A0061AB52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E29267189D231A0061AB52 /* UIKit.framework */; };
+		E7E29287189D231A0061AB52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7E29285189D231A0061AB52 /* InfoPlist.strings */; };
+		E7E29289189D231A0061AB52 /* MJDropDownDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E29288189D231A0061AB52 /* MJDropDownDemoTests.m */; };
+		E7E2929D189D23960061AB52 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E2929C189D23960061AB52 /* MJViewController.m */; };
+		E7E292B5189D27730061AB52 /* libMJDropDown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E292B0189D27580061AB52 /* libMJDropDown.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7E29280189D231A0061AB52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7E29258189D231A0061AB52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7E2925F189D231A0061AB52;
+			remoteInfo = MJDropDownDemo;
+		};
+		E7E292AF189D27580061AB52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7E292AA189D27580061AB52 /* MJDropDown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7E2922E189D1B8D0061AB52;
+			remoteInfo = MJDropDown;
+		};
+		E7E292B1189D27580061AB52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7E292AA189D27580061AB52 /* MJDropDown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7E2923E189D1B8D0061AB52;
+			remoteInfo = MJDropDownTests;
+		};
+		E7E292B3189D276B0061AB52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7E292AA189D27580061AB52 /* MJDropDown.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E7E2922D189D1B8D0061AB52;
+			remoteInfo = MJDropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7E29260189D231A0061AB52 /* MJDropDownDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJDropDownDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E29263189D231A0061AB52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7E29265189D231A0061AB52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7E29267189D231A0061AB52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7E2926B189D231A0061AB52 /* MJDropDownDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MJDropDownDemo-Info.plist"; sourceTree = "<group>"; };
+		E7E2926D189D231A0061AB52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7E2926F189D231A0061AB52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7E29271189D231A0061AB52 /* MJDropDownDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MJDropDownDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E7E29272189D231A0061AB52 /* MJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJAppDelegate.h; sourceTree = "<group>"; };
+		E7E29273189D231A0061AB52 /* MJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAppDelegate.m; sourceTree = "<group>"; };
+		E7E29275189D231A0061AB52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E7E2927B189D231A0061AB52 /* MJDropDownDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJDropDownDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E2927C189D231A0061AB52 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E7E29284189D231A0061AB52 /* MJDropDownDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MJDropDownDemoTests-Info.plist"; sourceTree = "<group>"; };
+		E7E29286189D231A0061AB52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7E29288189D231A0061AB52 /* MJDropDownDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJDropDownDemoTests.m; sourceTree = "<group>"; };
+		E7E2929B189D23960061AB52 /* MJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
+		E7E2929C189D23960061AB52 /* MJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
+		E7E292AA189D27580061AB52 /* MJDropDown.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJDropDown.xcodeproj; path = ../MJDropDown/MJDropDown.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7E2925D189D231A0061AB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E292B5189D27730061AB52 /* libMJDropDown.a in Frameworks */,
+				E7E29266189D231A0061AB52 /* CoreGraphics.framework in Frameworks */,
+				E7E29268189D231A0061AB52 /* UIKit.framework in Frameworks */,
+				E7E29264189D231A0061AB52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E29278189D231A0061AB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E2927D189D231A0061AB52 /* XCTest.framework in Frameworks */,
+				E7E2927F189D231A0061AB52 /* UIKit.framework in Frameworks */,
+				E7E2927E189D231A0061AB52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7E29257189D231A0061AB52 = {
+			isa = PBXGroup;
+			children = (
+				E7E29269189D231A0061AB52 /* MJDropDownDemo */,
+				E7E29282189D231A0061AB52 /* MJDropDownDemoTests */,
+				E7E29262189D231A0061AB52 /* Frameworks */,
+				E7E29261189D231A0061AB52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7E29261189D231A0061AB52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7E29260189D231A0061AB52 /* MJDropDownDemo.app */,
+				E7E2927B189D231A0061AB52 /* MJDropDownDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7E29262189D231A0061AB52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7E292AA189D27580061AB52 /* MJDropDown.xcodeproj */,
+				E7E29263189D231A0061AB52 /* Foundation.framework */,
+				E7E29265189D231A0061AB52 /* CoreGraphics.framework */,
+				E7E29267189D231A0061AB52 /* UIKit.framework */,
+				E7E2927C189D231A0061AB52 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7E29269189D231A0061AB52 /* MJDropDownDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E7E29272189D231A0061AB52 /* MJAppDelegate.h */,
+				E7E29273189D231A0061AB52 /* MJAppDelegate.m */,
+				E7E2929B189D23960061AB52 /* MJViewController.h */,
+				E7E2929C189D23960061AB52 /* MJViewController.m */,
+				E7E29275189D231A0061AB52 /* Images.xcassets */,
+				E7E2926A189D231A0061AB52 /* Supporting Files */,
+			);
+			path = MJDropDownDemo;
+			sourceTree = "<group>";
+		};
+		E7E2926A189D231A0061AB52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E2926B189D231A0061AB52 /* MJDropDownDemo-Info.plist */,
+				E7E2926C189D231A0061AB52 /* InfoPlist.strings */,
+				E7E2926F189D231A0061AB52 /* main.m */,
+				E7E29271189D231A0061AB52 /* MJDropDownDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7E29282189D231A0061AB52 /* MJDropDownDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7E29288189D231A0061AB52 /* MJDropDownDemoTests.m */,
+				E7E29283189D231A0061AB52 /* Supporting Files */,
+			);
+			path = MJDropDownDemoTests;
+			sourceTree = "<group>";
+		};
+		E7E29283189D231A0061AB52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E29284189D231A0061AB52 /* MJDropDownDemoTests-Info.plist */,
+				E7E29285189D231A0061AB52 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7E292AB189D27580061AB52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7E292B0189D27580061AB52 /* libMJDropDown.a */,
+				E7E292B2189D27580061AB52 /* MJDropDownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7E2925F189D231A0061AB52 /* MJDropDownDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E2928C189D231A0061AB52 /* Build configuration list for PBXNativeTarget "MJDropDownDemo" */;
+			buildPhases = (
+				E7E2925C189D231A0061AB52 /* Sources */,
+				E7E2925D189D231A0061AB52 /* Frameworks */,
+				E7E2925E189D231A0061AB52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7E292B4189D276B0061AB52 /* PBXTargetDependency */,
+			);
+			name = MJDropDownDemo;
+			productName = MJDropDownDemo;
+			productReference = E7E29260189D231A0061AB52 /* MJDropDownDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7E2927A189D231A0061AB52 /* MJDropDownDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E2928F189D231A0061AB52 /* Build configuration list for PBXNativeTarget "MJDropDownDemoTests" */;
+			buildPhases = (
+				E7E29277189D231A0061AB52 /* Sources */,
+				E7E29278189D231A0061AB52 /* Frameworks */,
+				E7E29279189D231A0061AB52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7E29281189D231A0061AB52 /* PBXTargetDependency */,
+			);
+			name = MJDropDownDemoTests;
+			productName = MJDropDownDemoTests;
+			productReference = E7E2927B189D231A0061AB52 /* MJDropDownDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7E29258189D231A0061AB52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Matěj Kašpar Jirásek";
+				TargetAttributes = {
+					E7E2927A189D231A0061AB52 = {
+						TestTargetID = E7E2925F189D231A0061AB52;
+					};
+				};
+			};
+			buildConfigurationList = E7E2925B189D231A0061AB52 /* Build configuration list for PBXProject "MJDropDownDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7E29257189D231A0061AB52;
+			productRefGroup = E7E29261189D231A0061AB52 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E7E292AB189D27580061AB52 /* Products */;
+					ProjectRef = E7E292AA189D27580061AB52 /* MJDropDown.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E7E2925F189D231A0061AB52 /* MJDropDownDemo */,
+				E7E2927A189D231A0061AB52 /* MJDropDownDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E7E292B0189D27580061AB52 /* libMJDropDown.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMJDropDown.a;
+			remoteRef = E7E292AF189D27580061AB52 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7E292B2189D27580061AB52 /* MJDropDownTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MJDropDownTests.xctest;
+			remoteRef = E7E292B1189D27580061AB52 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7E2925E189D231A0061AB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E2926E189D231A0061AB52 /* InfoPlist.strings in Resources */,
+				E7E29276189D231A0061AB52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E29279189D231A0061AB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E29287189D231A0061AB52 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7E2925C189D231A0061AB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E29270189D231A0061AB52 /* main.m in Sources */,
+				E7E2929D189D23960061AB52 /* MJViewController.m in Sources */,
+				E7E29274189D231A0061AB52 /* MJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E29277189D231A0061AB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E29289189D231A0061AB52 /* MJDropDownDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7E29281189D231A0061AB52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7E2925F189D231A0061AB52 /* MJDropDownDemo */;
+			targetProxy = E7E29280189D231A0061AB52 /* PBXContainerItemProxy */;
+		};
+		E7E292B4189D276B0061AB52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJDropDown;
+			targetProxy = E7E292B3189D276B0061AB52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7E2926C189D231A0061AB52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7E2926D189D231A0061AB52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7E29285189D231A0061AB52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7E29286189D231A0061AB52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7E2928A189D231A0061AB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7E2928B189D231A0061AB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7E2928D189D231A0061AB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJDropDownDemo/MJDropDownDemo-Prefix.pch";
+				INFOPLIST_FILE = "MJDropDownDemo/MJDropDownDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7E2928E189D231A0061AB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJDropDownDemo/MJDropDownDemo-Prefix.pch";
+				INFOPLIST_FILE = "MJDropDownDemo/MJDropDownDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E7E29290189D231A0061AB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MJDropDownDemo.app/MJDropDownDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJDropDownDemo/MJDropDownDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MJDropDownDemoTests/MJDropDownDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E7E29291189D231A0061AB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MJDropDownDemo.app/MJDropDownDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJDropDownDemo/MJDropDownDemo-Prefix.pch";
+				INFOPLIST_FILE = "MJDropDownDemoTests/MJDropDownDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7E2925B189D231A0061AB52 /* Build configuration list for PBXProject "MJDropDownDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E2928A189D231A0061AB52 /* Debug */,
+				E7E2928B189D231A0061AB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E2928C189D231A0061AB52 /* Build configuration list for PBXNativeTarget "MJDropDownDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E2928D189D231A0061AB52 /* Debug */,
+				E7E2928E189D231A0061AB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7E2928F189D231A0061AB52 /* Build configuration list for PBXNativeTarget "MJDropDownDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E29290189D231A0061AB52 /* Debug */,
+				E7E29291189D231A0061AB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7E29258189D231A0061AB52 /* Project object */;
+}
